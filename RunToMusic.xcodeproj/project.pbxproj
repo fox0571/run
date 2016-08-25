@@ -14,6 +14,7 @@
 		980E2AE51D6F0E9A00186AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980E2AE31D6F0E9A00186AA3 /* LaunchScreen.storyboard */; };
 		980E2AF01D6F0E9B00186AA3 /* RunToMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E2AEF1D6F0E9B00186AA3 /* RunToMusicTests.swift */; };
 		980E2AFB1D6F0E9B00186AA3 /* RunToMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E2AFA1D6F0E9B00186AA3 /* RunToMusicUITests.swift */; };
+		980E2B091D6F0EF700186AA3 /* GetMusicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E2B081D6F0EF700186AA3 /* GetMusicList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		980E2AF61D6F0E9B00186AA3 /* RunToMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunToMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		980E2AFA1D6F0E9B00186AA3 /* RunToMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunToMusicUITests.swift; sourceTree = "<group>"; };
 		980E2AFC1D6F0E9B00186AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		980E2B081D6F0EF700186AA3 /* GetMusicList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMusicList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				980E2ADA1D6F0E9A00186AA3 /* AppDelegate.swift */,
+				980E2B081D6F0EF700186AA3 /* GetMusicList.swift */,
 				980E2ADC1D6F0E9A00186AA3 /* ViewController.swift */,
 				980E2ADE1D6F0E9A00186AA3 /* Main.storyboard */,
 				980E2AE11D6F0E9A00186AA3 /* Assets.xcassets */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980E2B091D6F0EF700186AA3 /* GetMusicList.swift in Sources */,
 				980E2ADD1D6F0E9A00186AA3 /* ViewController.swift in Sources */,
 				980E2ADB1D6F0E9A00186AA3 /* AppDelegate.swift in Sources */,
 			);
