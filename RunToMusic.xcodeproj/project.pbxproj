@@ -15,6 +15,7 @@
 		980E2AF01D6F0E9B00186AA3 /* RunToMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E2AEF1D6F0E9B00186AA3 /* RunToMusicTests.swift */; };
 		980E2AFB1D6F0E9B00186AA3 /* RunToMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E2AFA1D6F0E9B00186AA3 /* RunToMusicUITests.swift */; };
 		980E2B091D6F0EF700186AA3 /* GetMusicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E2B081D6F0EF700186AA3 /* GetMusicList.swift */; };
+		9868BAE11D797C5B006F10D0 /* art in Resources */ = {isa = PBXBuildFile; fileRef = 9868BAE01D797C5B006F10D0 /* art */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		980E2AFA1D6F0E9B00186AA3 /* RunToMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunToMusicUITests.swift; sourceTree = "<group>"; };
 		980E2AFC1D6F0E9B00186AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		980E2B081D6F0EF700186AA3 /* GetMusicList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMusicList.swift; sourceTree = "<group>"; };
+		9868BAE01D797C5B006F10D0 /* art */ = {isa = PBXFileReference; lastKnownFileType = folder; path = art; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		980E2AD91D6F0E9A00186AA3 /* RunToMusic */ = {
 			isa = PBXGroup;
 			children = (
+				9868BAE01D797C5B006F10D0 /* art */,
 				980E2ADA1D6F0E9A00186AA3 /* AppDelegate.swift */,
 				980E2B081D6F0EF700186AA3 /* GetMusicList.swift */,
 				980E2ADC1D6F0E9A00186AA3 /* ViewController.swift */,
@@ -234,6 +237,7 @@
 			files = (
 				980E2AE51D6F0E9A00186AA3 /* LaunchScreen.storyboard in Resources */,
 				980E2AE21D6F0E9A00186AA3 /* Assets.xcassets in Resources */,
+				9868BAE11D797C5B006F10D0 /* art in Resources */,
 				980E2AE01D6F0E9A00186AA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +490,7 @@
 				980E2B011D6F0E9B00186AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		980E2B021D6F0E9B00186AA3 /* Build configuration list for PBXNativeTarget "RunToMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				980E2B041D6F0E9B00186AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		980E2B051D6F0E9B00186AA3 /* Build configuration list for PBXNativeTarget "RunToMusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				980E2B071D6F0E9B00186AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
